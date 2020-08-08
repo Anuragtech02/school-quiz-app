@@ -1,0 +1,16 @@
+.linearProgress {
+  width: 100% !important;
+  color: var(--orangeTint) !important;
+}
+.linearProgress {
+  color: var(--orangeTint) !important;
+}
+.circularProgress svg {
+  color: var(--orangeTint) !important;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
