@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+:root {
+  --primaryColor: #000;
+  --tintColor: #fff;
+  --fixedWidth: 70%;
+}
+
+.nav {
+  background: #073b3a;
+}
+/*# sourceMappingURL=App.module.css.map */

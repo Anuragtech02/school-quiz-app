@@ -1,6 +1,6 @@
 import React, { createContext, useState, useEffect } from "react";
 import { CircularProgress } from "@material-ui/core";
-import firebase from "./Firebase";
+import firebase from "./firebase";
 import styles from "./Auth.module.css";
 
 export const AuthContext = createContext();
@@ -32,7 +32,7 @@ export const AuthProvider = ({ children }) => {
   }
 
   return (
-    <AuthContext.Provider value={{ currentUser, userDetails, products }}>
+    <AuthContext.Provider value={{ currentUser, userDetails }}>
       {children}
     </AuthContext.Provider>
   );

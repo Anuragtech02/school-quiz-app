@@ -1,0 +1,52 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10vh;
+  margin: auto;
+  width: var(--fixedWidth);
+  color: white;
+}
+
+.logo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.logo h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.navLinksContainer {
+  width: 30%;
+}
+
+.navLinksContainer .navLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navLinksContainer .navLinks .navLink {
+  list-style: none;
+}
+
+.navLinksContainer .navLinks .navLink a {
+  text-decoration: none !important;
+  color: white;
+}
+/*# sourceMappingURL=Nav.module.css.map */
