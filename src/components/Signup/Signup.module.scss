@@ -1,0 +1,128 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+  .heading {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    text-align: left;
+
+    h2 {
+      font-weight: 700;
+      color: var(--primaryColor);
+      font-size: 2rem;
+    }
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .textFields {
+      .textField {
+        margin: 10px 10px;
+      }
+      .name {
+        width: 100%;
+      }
+      .nameContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+
+  .alreadyUser {
+    display: block;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    line-height: 0;
+    top: 2px;
+    padding-top: 1px;
+    margin: 20px 0;
+    h5 {
+      font-weight: 300;
+      margin: 0 5px;
+      width: fit-content;
+      margin: auto;
+      text-align: center;
+      line-height: 1;
+      position: relative;
+      z-index: 2;
+      background-color: white;
+      padding: 0 8px 0 8px;
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 100%;
+      display: flex;
+      padding: 0 0 20px 0;
+      text-align: left;
+
+      h2 {
+        font-weight: 900;
+        color: var(--primaryColor);
+        font-size: 2rem;
+      }
+      height: 1px;
+      top: 50%;
+      width: 100%;
+      border-top: 1px solid var(--orangeTint);
+      margin-top: -1px;
+      z-index: 0;
+    }
+  }
+  .login {
+    width: 100%;
+    Button {
+      width: 100%;
+    }
+  }
+
+  .signupBtn {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;
+    margin: 20px 0;
+    Button {
+      background-color: var(--primaryColor) !important;
+      color: white !important;
+      font-weight: 600;
+    }
+  }
+
+  .sellerFields {
+    .industryWrapper,
+    .websiteWrapper {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .industry,
+      .website {
+        width: 100%;
+      }
+    }
+    .sellerSubmit {
+      justify-content: flex-end;
+    }
+  }
+}

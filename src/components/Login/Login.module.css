@@ -1,1 +1,155 @@
-/* No CSS *//*# sourceMappingURL=Login.module.css.map */
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 70vh;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .heading {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 0 20px 0;
+  text-align: left;
+}
+
+.card .heading h2 {
+  font-weight: 900;
+  color: var(--primaryColor);
+  font-size: 2rem;
+}
+
+.card .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .form .textFields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .form .textFields .textField {
+  margin: 10px 0;
+  min-width: 300px;
+}
+
+.card .form .submitWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 0;
+}
+
+.card .form .submitWrapper h4 {
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.card .form .submitWrapper .loginBtn {
+  background: var(--primaryColor) !important;
+  color: white !important;
+  font-weight: 600;
+}
+
+.card .newHere {
+  display: block;
+  position: relative;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 0;
+  top: 2px;
+  padding-top: 1px;
+  margin: 20px 0;
+}
+
+.card .newHere h5 {
+  font-weight: 300;
+  margin: 0 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+  line-height: 1;
+  position: relative;
+  z-index: 2;
+  background-color: white;
+  padding: 0 8px 0 8px;
+}
+
+.card .newHere:after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 1px;
+  top: 50%;
+  width: 100%;
+  border-top: 1px solid var(--orangeTint);
+  margin-top: -1px;
+  z-index: 0;
+}
+
+.card .createAccount {
+  width: 100%;
+}
+
+.card .createAccount Button {
+  width: 100%;
+}
+/*# sourceMappingURL=Login.module.css.map */
