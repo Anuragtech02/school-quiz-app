@@ -15,4 +15,10 @@
 .nav {
   background: #073b3a;
 }
+
+@media screen and (max-width: 800px) {
+  :root {
+    --fixedWidth: 100%;
+  }
+}
 /*# sourceMappingURL=App.module.css.map */
