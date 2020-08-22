@@ -3,13 +3,64 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 50px auto;
+  margin: 15px auto;
+}
+
+.personalDetails {
+  width: 90%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.personalDetails h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.personalDetails h4 {
+  font-weight: 600;
+}
+
+.personalDetails p {
+  margin: 5px 0;
+}
+
+.personalDetails .profile {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: white;
+  overflow: hidden;
+}
+
+.personalDetails .profile img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.personalDetails .profile img:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
 }
 
 .card {
@@ -30,6 +81,10 @@
           box-shadow: 2px 2px 10px -2px #073b3a;
 }
 
+.testsTaken {
+  width: 100% !important;
+}
+
 .testsTaken h1 {
   font-size: 3.5rem;
   margin-bottom: 20px;
@@ -38,5 +93,54 @@
 .testsTaken h4 {
   font-size: 1rem;
   font-weight: 400;
+}
+
+.academics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  padding: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.academics .rank,
+.academics .tests,
+.academics .accuracy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.academics .rank h5,
+.academics .tests h5,
+.academics .accuracy h5 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--primaryColor) !important;
+}
+
+.academics .rank p,
+.academics .tests p,
+.academics .accuracy p {
+  margin-top: 5px;
+  font-weight: 400;
+  color: #4b4b4b;
+  font-size: 0.8rem;
 }
 /*# sourceMappingURL=Home.module.css.map */

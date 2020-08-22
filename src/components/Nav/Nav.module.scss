@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 10vh;
+  height: 60px;
   margin: auto;
   width: var(--fixedWidth);
   color: white;
@@ -30,5 +30,14 @@
         color: white;
       }
     }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    padding: 10px;
+  }
+  .navLinksContainer {
+    display: none;
   }
 }

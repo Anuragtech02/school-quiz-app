@@ -1,9 +1,43 @@
 .container {
   width: var(--fixedWidth);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 50px auto;
+  margin: 15px auto;
+}
+.personalDetails {
+  width: 90%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+  h4 {
+    font-weight: 600;
+  }
+  p {
+    margin: 5px 0;
+  }
+  .profile {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: white;
+    overflow: hidden;
+    img {
+      width: 100%;
+      object-fit: cover;
+      &:hover {
+        transform: scale(2);
+      }
+    }
+  }
 }
 .card {
   display: flex;
@@ -15,6 +49,7 @@
   box-shadow: 2px 2px 10px -2px #073b3a;
 }
 .testsTaken {
+  width: 100% !important;
   h1 {
     font-size: 3.5rem;
     margin-bottom: 20px;
@@ -22,5 +57,31 @@
   h4 {
     font-size: 1rem;
     font-weight: 400;
+  }
+}
+.academics {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  padding: 20px;
+  justify-content: space-between;
+  .rank,
+  .tests,
+  .accuracy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h5 {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: var(--primaryColor) !important;
+    }
+    p {
+      margin-top: 5px;
+      font-weight: 400;
+      color: #4b4b4b;
+      font-size: 0.8rem;
+    }
   }
 }

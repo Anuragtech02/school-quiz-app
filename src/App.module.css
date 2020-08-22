@@ -7,9 +7,14 @@
 }
 
 :root {
-  --primaryColor: #000;
+  --primaryColor: #073b3a;
   --tintColor: #fff;
   --fixedWidth: 70%;
+  --backgroundGrey: #f7f7f7;
+}
+
+body {
+  background-color: var(--backgroundGrey);
 }
 
 .nav {
